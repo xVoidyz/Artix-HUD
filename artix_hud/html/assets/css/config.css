@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+:root {
+    /* algemein für core*/
+    --bg: rgba(0, 179, 255, 0.1);
+    --border_clr: linear-gradient(114.65deg, #ea00ff 0%, #ea00ff 50.29%, #ff00ea 100%);
+    --script_name: rgb(255, 255, 255);
+
+    --server_name_first: rgb(162, 0, 255);
+    --server_name_last: rgb(255, 255, 255);
+
+
+    --text: 'Rajdhani', sans-serif;
+
+    /* hud */
+    --server_name_first: rgb(174, 0, 255);
+    --text-shadow-first1: rgb(0, 0, 0, 0.5);
+    --text-shadow-first2: rgba(153, 0, 255, 0.5);
+
+    --server_name_last: rgb(255, 255, 255);
+    --text-shadow-last1: rgba(0, 0, 0, 0.747);
+    --text-shadow-last2: rgba(255, 255, 255, 0.596);
+    
+    --top_right_blur: rgb(0, 0, 0);
+
+    --id_first: rgb(225, 0, 255);
+    --id_last: rgba(255, 255, 255, 0.5);
+
+    --onlineplayer_first: rgb(212, 0, 255);
+    --onlineplayer_last: rgba(255, 255, 255, 0.5);
+
+    --mic_st1: rgba(255, 255, 255, 0.5);
+    --mic_st2: rgb(247, 0, 255);
+    --mic_st3: rgb(255, 0, 0);
+
+    --dot_st1: rgba(255, 255, 255, 0.5);
+    --dot_st2: rgb(212, 0, 255);
+
+    --money_first: rgb(255, 255, 255);
+    --money_first_img: rgb(255, 255, 255);
+    --money_last: rgb(255, 255, 255);
+    --money_last_img: rgb(255, 255, 255);
+
+    --plz_first: rgba(255, 255, 255, 0.5);
+    --plz_last: rgba(255, 255, 255, 0.5);
+    --job_first: rgba(255, 255, 255, 0.5);
+    --job_last: rgba(255, 255, 255, 0.5);
+    --clock_first: rgba(255, 255, 255, 0.5);
+    --clock_last: rgba(255, 255, 255, 0.5);
+
+    --food_img: rgb(255, 255, 255);
+    --food_bg:rgba(4, 23, 11, 0.9);
+    --food_st1: rgb(5, 255, 0);
+    --food_st2: rgb(255, 122, 0);
+    --food_st3: rgb(255, 0, 0);
+    --water_bg:rgba(17, 32, 38, 0.9);
+    --water_st1: rgb(98, 208, 255);
+    --water_st2: rgb(255, 122, 0);
+    --water_st3: rgb(255, 0, 0);
+
+    --speedo_KMH_first: rgba(255, 255, 255, 0.6);
+    --speedo_KMH_last: rgb(255, 255, 255);
+    --speedo_KMH_last_shadow: rgb(0, 0, 0);
+
+    --lock_st1: rgba(255, 255, 255, 0.5);
+    --lock_st2: rgb(183, 0, 255);
+    --engien_st1: rgba(255, 255, 255, 0.5);
+    --engien_st2: rgb(119, 0, 255);
+
+    --fule_text: rgb(37, 228, 63);
+    --fule_bg_bar: rgba(0, 0, 0, 0.5);
+    --fule_bar: rgb(37, 228, 63);
+
+    --help_notify: rgb(225, 0, 255);
+    --help_notify_text_in: rgb(153, 0, 255);
+    --help_notify_text: rgba(255, 255, 255, 0.6);
+    --help_notify_bg: rgb(183, 0, 255);
+
+    --progress_bar_gb:rgba(0, 0, 0, 0.6);
+    --progress_bar_fill:linear-gradient(90deg, rgb(183, 0, 255) 0%, rgb(225, 0, 255) 100%);
+    --progress_bar_fill_shadow:rgb(132, 0, 255);
+    --progress_bar_text:rgb(255, 255, 255);
+
+    --settings_bg:rgba(8, 16, 20, 0.9);
+    --settings_hader:rgb(255, 255, 255);
+    --settings_text:rgb(255, 255, 255);
+    --checkbox-checked: #7DDE29;
+    --checkbox-checked-box-shadow: rgba(125, 222, 41, 0.64);
+
+    --checkbox-unchecked: #FF3131;
+    --checkbox-unchecked-box-shadow: rgba(255, 49, 49, 0.64);
+
+    --announce_bg: rgb(183, 0, 255);
+    --announce_img: #fff;
+    --announce_img_shadow: rgba(255, 255, 255, .5);
+    --announce_header:rgb(255, 255, 255);
+    --announce_text:rgb(255, 255, 255);
+    --announce_progress_bg:rgba(0, 0, 0, .05);
+    --announce_progress:rgb(255, 255, 255);
+
+    --notify_bg:rgba(175, 2, 218, 0.5);
+    --notify_img: #fff;
+    --notify_img_shadow:rgba(255, 255, 255, .5);
+    --notify_header: #fff;
+    --notify_text: #fff;
+    --notify_progress:rgb(255, 255, 255);
+    --notify_progress_bg:rgba(0, 0, 0, 0);
+}
